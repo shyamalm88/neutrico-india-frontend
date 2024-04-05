@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function FooterSection() {
@@ -26,33 +27,7 @@ function FooterSection() {
             </ul>
           </nav>
         </div>
-        <div className="one_quarter">
-          <h6 className="heading">Contact Us</h6>
-          <p className="nospace btmspace-15">
-            Velit laoreet et scelerisque facilisis lacinia ut sapien in
-            vehicula.
-          </p>
-          <form action="#" method="post">
-            <fieldset>
-              <legend>Newsletter:</legend>
-              <input
-                className="btmspace-15"
-                type="text"
-                value=""
-                placeholder="Name"
-              />
-              <input
-                className="btmspace-15"
-                type="text"
-                value=""
-                placeholder="Email"
-              />
-              <button className="btn" type="submit" value="submit">
-                Submit
-              </button>
-            </fieldset>
-          </form>
-        </div>
+
         <div className="one_quarter">
           <h6 className="heading">Elementum ligula sed</h6>
           <ul className="nospace linklist">
@@ -74,51 +49,51 @@ function FooterSection() {
           </ul>
         </div>
         <div className="one_quarter last">
-          <h6 className="heading">Lobortis ac velit aliquam</h6>
+          <h6 className="heading">Popular Products</h6>
           <ul className="nospace clear latestimg">
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p1.png"} alt="" layout="fill" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p2.png"} alt="" layout="fill" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p1.png"} alt="" layout="fill" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <img src="images/demo/100x100.png" alt="" />
+                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
               </a>
             </li>
           </ul>
