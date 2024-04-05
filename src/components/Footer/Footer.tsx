@@ -5,7 +5,7 @@ function FooterSection() {
     <div className="wrapper row4">
       <footer id="footer" className="hoc clear">
         <div className="one_quarter first">
-          <h6 className="heading">Pentwist</h6>
+          <h6 className="heading">Neutrico India</h6>
           <nav>
             <ul className="nospace linklist">
               <li>
