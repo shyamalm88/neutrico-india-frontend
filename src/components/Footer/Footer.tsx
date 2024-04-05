@@ -27,7 +27,7 @@ function FooterSection() {
           </nav>
         </div>
         <div className="one_quarter">
-          <h6 className="heading">Interdum augue ut diam</h6>
+          <h6 className="heading">Contact Us</h6>
           <p className="nospace btmspace-15">
             Velit laoreet et scelerisque facilisis lacinia ut sapien in
             vehicula.
