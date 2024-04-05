@@ -12,35 +12,30 @@ function Nav() {
         <nav id="mainav" className="fl_right">
           <ul className="clear">
             <li className="active">
-              <a href="index.html">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="index.html">About</a>
+              <a href="#">About</a>
             </li>
+
             <li>
               <a className="drop" href="#">
-                Pages
+                Products
               </a>
               <ul>
                 <li>
-                  <a href="pages/gallery.html">Gallery</a>
+                  <a href="#">All Products</a>
                 </li>
                 <li>
-                  <a href="pages/full-width.html">Full Width</a>
-                </li>
-                <li>
-                  <a href="pages/sidebar-left.html">Sidebar Left</a>
-                </li>
-                <li>
-                  <a href="pages/sidebar-right.html">Sidebar Right</a>
-                </li>
-                <li>
-                  <a href="pages/basic-grid.html">Basic Grid</a>
-                </li>
-                <li>
-                  <a href="pages/font-icons.html">Font Icons</a>
+                  <a href="#">Product Categories</a>
                 </li>
               </ul>
+            </li>
+            <li>
+              <a href="#">Health Professionals</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
             </li>
           </ul>
         </nav>
