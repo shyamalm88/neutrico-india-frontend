@@ -1,3 +1,4 @@
+import FooterSection from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import Nav from "@/components/Nav/Nav";
 import OtherPagesHero from "@/components/OtherPagesHero/OtherPagesHero";
@@ -11,6 +12,7 @@ function AboutPage() {
       <Nav active="about" />
       <OtherPagesHero />
       <WhoWeAre />
+      <FooterSection />
     </div>
   );
 }
