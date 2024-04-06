@@ -1,5 +1,6 @@
 import React from "react";
 import CallToAction from "../CallToAction/CallToAction";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -9,6 +10,7 @@ function Hero() {
         style={{
           backgroundImage: `url('images/stock-photo-young-indian-pregnant-woman-visiting-doctor-at-the-hospital-pregnancy-checkup-2184882427-transformed.jpeg')`,
           backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div id="pageintro" className="hoc clear">
@@ -19,9 +21,9 @@ function Hero() {
               enhance the health of humanity.
             </h3>
             <footer>
-              <a className="btn" href="#">
+              <Link className="btn" href="/contact">
                 <strong>Contact Us</strong>
-              </a>
+              </Link>
             </footer>
           </article>
         </div>

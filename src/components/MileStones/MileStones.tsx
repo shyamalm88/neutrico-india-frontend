@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function MileStones() {
@@ -12,17 +13,17 @@ function MileStones() {
               healthcare solutions is built upon several key pillars
             </h6>
             <footer>
-              <a className="btn" href="#">
+              <Link className="btn" href="/about">
                 Know More About Us
-              </a>
+              </Link>
             </footer>
           </article>
           <div className="two_third">
             <ul className="nospace group">
               <li className="one_half first btmspace-30">
-                <a href="#">
+                <Link href="/about">
                   <i className="icon btmspace-30 fas fa-award"></i>
-                </a>
+                </Link>
                 <h6 className="heading">Quality Assurance: </h6>
                 <p>
                   NEUTRICO INDIA maintains stringent quality control measures
@@ -33,9 +34,9 @@ function MileStones() {
                 </p>
               </li>
               <li className="one_half btmspace-30">
-                <a href="#">
+                <Link href="/about">
                   <i className="icon btmspace-30 fas fa-brain"></i>
-                </a>
+                </Link>
                 <h6 className="heading">Research and Development:</h6>
                 <p>
                   The company invests significantly in research and development
@@ -46,9 +47,9 @@ function MileStones() {
                 </p>
               </li>
               <li className="one_half first">
-                <a href="#">
+                <Link href="/about">
                   <i className="icon btmspace-30 fas fa-stethoscope"></i>
-                </a>
+                </Link>
                 <h6 className="heading">
                   Collaboration with Healthcare Professionals:
                 </h6>
@@ -62,9 +63,9 @@ function MileStones() {
                 </p>
               </li>
               <li className="one_half last">
-                <a href="#">
+                <Link href="/about">
                   <i className="icon btmspace-30 fas fa-heart"></i>
-                </a>
+                </Link>
                 <h6 className="heading">Reach:</h6>
                 <p>
                   With a presence all over the countries , NEUTRICO INDIA has

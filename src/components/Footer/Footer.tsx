@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function FooterSection() {
@@ -10,19 +11,16 @@ function FooterSection() {
           <nav>
             <ul className="nospace linklist">
               <li>
-                <a href="#">About</a>
+                <Link href="/about">About</Link>
               </li>
               <li>
-                <a href="#">Terms</a>
+                <Link href="/about">Terms</Link>
               </li>
               <li>
-                <a href="#">Privacy</a>
+                <Link href="/about">Privacy</Link>
               </li>
               <li>
-                <a href="#">Cookies</a>
-              </li>
-              <li>
-                <a href="#">Disclaimer</a>
+                <Link href="/contact">Disclaimer</Link>
               </li>
             </ul>
           </nav>
@@ -53,17 +51,17 @@ function FooterSection() {
           <ul className="nospace clear latestimg">
             <li>
               <a className="imgover" href="#">
-                <Image src={"/images/p1.png"} alt="" layout="fill" />
+                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <Image src={"/images/p2.png"} alt="" layout="fill" />
+                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>
               <a className="imgover" href="#">
-                <Image src={"/images/p1.png"} alt="" layout="fill" />
+                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
               </a>
             </li>
             <li>

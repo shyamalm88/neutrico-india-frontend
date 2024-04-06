@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function CallToAction() {
@@ -7,9 +8,9 @@ function CallToAction() {
         <ul className="nospace clear">
           <li className="one_quarter first">
             <div className="block clear">
-              <a href="#">
+              <Link href="tel:+918910477479">
                 <i className="fas fa-phone"></i>
-              </a>
+              </Link>
               <span>
                 Give us a call: <strong>+91 (8910) 477 479</strong>
               </span>
@@ -17,9 +18,9 @@ function CallToAction() {
           </li>
           <li className="one_quarter">
             <div className="block clear">
-              <a href="#">
+              <Link href="mailto:neutricoindia@gmail.com">
                 <i className="fas fa-envelope"></i>
-              </a>
+              </Link>
               <span>
                 Send us a mail: <strong>neutricoindia@gmail.com</strong>
               </span>
@@ -27,7 +28,7 @@ function CallToAction() {
           </li>
           <li className="one_quarter">
             <div className="block clear">
-              <a href="#">
+              <a>
                 <i className="fas fa-clock"></i>
               </a>
               <span>
@@ -36,9 +37,9 @@ function CallToAction() {
             </div>
           </li>
           <li className="one_quarter">
-            <a className="btn" href="#">
+            <Link className="btn" href="/contact">
               <strong>Get A Quote</strong>
-            </a>
+            </Link>
           </li>
         </ul>
       </section>

@@ -12,7 +12,7 @@ function HomePage() {
   return (
     <div>
       <Header />
-      <Nav />
+      <Nav active="home" />
       <Hero />
       <VideoDescription />
       <MileStones />

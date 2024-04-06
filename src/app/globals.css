@@ -86,6 +86,9 @@
 #pageintro {
   padding: 330px 0;
 }
+#pageintroOther {
+  padding: 130px 0;
+}
 
 #pageintro article {
   display: block;
@@ -103,6 +106,25 @@
   font-weight: 700;
 }
 #pageintro footer {
+  margin-top: 50px;
+}
+
+#pageintroOther article {
+  display: block;
+  max-width: 75%;
+  text-transform: capitalize;
+  text-align: left;
+}
+#pageintroOther p:first-of-type {
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#pageintroOther .heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#pageintroOther footer {
   margin-top: 50px;
 }
 
@@ -1347,6 +1369,7 @@ table a,
 }
 .imgover {
   position: relative;
+  width: 100%;
 }
 .react-responsive-modal-modal {
   max-width: 100% !important;
