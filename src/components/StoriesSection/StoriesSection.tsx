@@ -16,8 +16,8 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-feather-alt"></i>
-                </a>{" "}
+                  <i className="fas fa-hand-holding-heart"></i>
+                </a>
                 Aim
               </h6>
               <p>
@@ -36,8 +36,8 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-church"></i>
-                </a>{" "}
+                  <i className="fas fa-capsules"></i>
+                </a>
                 Commitment
               </h6>
               <p>
@@ -57,8 +57,8 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-tshirt"></i>
-                </a>{" "}
+                  <i className="fas fa-bong"></i>
+                </a>
                 Innovation
               </h6>
               <p>
@@ -77,8 +77,8 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-spa"></i>
-                </a>{" "}
+                  <i className="fas fa-people-carry"></i>
+                </a>
                 Efforts
               </h6>
               <p>
@@ -97,7 +97,7 @@ function StoriesSection() {
               <h6 className="heading">
                 <a href="#">
                   <i className="fas fa-lightbulb"></i>
-                </a>{" "}
+                </a>
                 Mission
               </h6>
               <p>
@@ -117,7 +117,7 @@ function StoriesSection() {
               <h6 className="heading">
                 <a href="#">
                   <i className="fas fa-eye"></i>
-                </a>{" "}
+                </a>
                 Vision
               </h6>
               <p>

@@ -5,6 +5,7 @@ import Hero from "@/components/Hero/Hero";
 import MileStones from "@/components/MileStones/MileStones";
 import Nav from "@/components/Nav/Nav";
 import StoriesSection from "@/components/StoriesSection/StoriesSection";
+import VideoDescription from "@/components/VideoDescription/VideoDescription";
 import React from "react";
 
 function HomePage() {
@@ -13,6 +14,7 @@ function HomePage() {
       <Header />
       <Nav />
       <Hero />
+      <VideoDescription />
       <MileStones />
       <Evidence />
       <StoriesSection />
