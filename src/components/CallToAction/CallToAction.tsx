@@ -2,17 +2,46 @@ import React from "react";
 
 function CallToAction() {
   return (
-    <div className="wrapper coloured">
-      <article className="hoc cta clear">
-        <h6 className="three_quarter first font-x2">
-          Nulla nec libero phasellus nec dolor sed ornare semper
-        </h6>
-        <footer className="one_quarter">
-          <a className="btn" href="#">
-            <strong>Contact Us</strong>
-          </a>
-        </footer>
-      </article>
+    <div className="wrapper row9">
+      <section id="ctdetails" className="hoc clear">
+        <ul className="nospace clear">
+          <li className="one_quarter first">
+            <div className="block clear">
+              <a href="#">
+                <i className="fas fa-phone"></i>
+              </a>
+              <span>
+                Give us a call: <strong>+91 (8910) 477 479</strong>
+              </span>
+            </div>
+          </li>
+          <li className="one_quarter">
+            <div className="block clear">
+              <a href="#">
+                <i className="fas fa-envelope"></i>
+              </a>
+              <span>
+                Send us a mail: <strong>neutricoindia@gmail.com</strong>
+              </span>
+            </div>
+          </li>
+          <li className="one_quarter">
+            <div className="block clear">
+              <a href="#">
+                <i className="fas fa-clock"></i>
+              </a>
+              <span>
+                Mon. - Sat.: <strong>08.00am - 10.00pm</strong>
+              </span>
+            </div>
+          </li>
+          <li className="one_quarter">
+            <a className="btn" href="#">
+              <strong>Get A Quote</strong>
+            </a>
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }

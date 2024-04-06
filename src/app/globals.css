@@ -63,6 +63,7 @@
   display: block;
   text-align: center;
   font-weight: 700;
+  border: 1px solid #fff;
 }
 
 /* Header
@@ -71,7 +72,7 @@
 }
 
 #header #logo {
-  margin: 22px 0 0 0;
+  margin: 12px 0 0 0;
 }
 #header #logo h1 {
   margin: 0;
@@ -868,6 +869,10 @@ textarea:focus,
   color: #474747;
   background-color: #ffffff;
 }
+.row9 {
+  color: #fff;
+  background-color: #d24130;
+}
 .row1 {
   color: #474747;
   background-color: #ffffff;
@@ -898,11 +903,20 @@ textarea:focus,
   color: #ffffff;
   background-color: #d24130;
 }
-
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 /* Contact Details */
 #ctdetails ul li div i {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.03);
+}
+#ctdetails ul li div i {
+  color: #ffffff;
+  background-color: #d24130;
 }
 #ctdetails ul li div:hover i {
   color: #ffffff;

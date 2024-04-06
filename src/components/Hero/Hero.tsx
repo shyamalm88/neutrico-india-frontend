@@ -7,7 +7,7 @@ function Hero() {
       <div
         className="wrapper bgded overlay"
         style={{
-          backgroundImage: `url('images/istockphoto-1418999502-1024x1024.jpg')`,
+          backgroundImage: `url('images/stock-photo-young-indian-pregnant-woman-visiting-doctor-at-the-hospital-pregnancy-checkup-2184882427-transformed.jpeg')`,
           backgroundSize: "cover",
         }}
       >

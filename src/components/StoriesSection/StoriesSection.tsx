@@ -18,7 +18,7 @@ function StoriesSection() {
                 <a href="#">
                   <i className="fas fa-feather-alt"></i>
                 </a>{" "}
-                Scelerisque integer ac
+                Aim
               </h6>
               <p>
                 NEUTRICO INDIA is dedicated to the advancement of global health
@@ -38,7 +38,7 @@ function StoriesSection() {
                 <a href="#">
                   <i className="fas fa-church"></i>
                 </a>{" "}
-                Elit suspendisse erat
+                Commitment
               </h6>
               <p>
                 The company&apos;s commitment to providing formula-driven
@@ -59,7 +59,7 @@ function StoriesSection() {
                 <a href="#">
                   <i className="fas fa-tshirt"></i>
                 </a>{" "}
-                Proin tincidunt venenatis
+                Innovation
               </h6>
               <p>
                 As a leader in the field of medical nutrition, NEUTRICO INDIA
@@ -79,7 +79,7 @@ function StoriesSection() {
                 <a href="#">
                   <i className="fas fa-spa"></i>
                 </a>{" "}
-                Massa aenean vehicula
+                Efforts
               </h6>
               <p>
                 By focusing on areas such as women&apos;s health, NEUTRICO INDIA
@@ -98,12 +98,14 @@ function StoriesSection() {
                 <a href="#">
                   <i className="fas fa-lightbulb"></i>
                 </a>{" "}
-                Et neque morbi tincidunt
+                Mission
               </h6>
               <p>
-                Euismod vel suscipit at velit sed eget lectus vitae augue
-                feugiat elementum integer sem erat sodales vel tempor sed
-                placerat id.
+                To improve global health and wellness by providing innovative
+                and science-backed nutraceutical solutions. We are committed to
+                formulating premium-quality products that promote optimal
+                nutrition, support well-being, and empower individuals to live
+                healthier, happier lives.
               </p>
               <footer>
                 <a href="#">Read More</a>
@@ -114,14 +116,16 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-diagnoses"></i>
+                  <i className="fas fa-eye"></i>
                 </a>{" "}
-                Suspendisse luctus dolor
+                Vision
               </h6>
               <p>
-                Quam etiam blandit nunc massa metus euismod non porta nec
-                adipiscing a leo nulla quam aliquam vel tellus praesent
-                ultricies augue.
+                Our vision is to be a trusted leader in the nutraceutical
+                industry, renowned for our dedication to scientific excellence,
+                product innovation, and customer satisfaction. We aspire to make
+                a meaningful impact on the health of individuals worldwide,
+                contributing to a healthier, more vibrant future for all.
               </p>
               <footer>
                 <a href="#">Read More</a>
