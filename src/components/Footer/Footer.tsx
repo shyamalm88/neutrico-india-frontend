@@ -22,22 +22,16 @@ function FooterSection() {
         </div>
 
         <div className="one_quarter">
-          <h6 className="heading">Elementum ligula sed</h6>
+          <h6 className="heading">Important Links</h6>
           <ul className="nospace linklist">
             <li>
-              <a href="#">Feugiat odio a est</a>
-            </li>
-            <li>
-              <a href="#">Ipsum eleifend elementum nullam</a>
-            </li>
-            <li>
-              <a href="#">Vitae ligula etiam ante lectus</a>
-            </li>
-            <li>
-              <a href="#">Venenatis at auctor in</a>
-            </li>
-            <li>
-              <a href="#">Erat volutpat nulla elementum</a>
+              <a
+                href="/files/fssi.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                FSSAI Certificate
+              </a>
             </li>
           </ul>
         </div>
@@ -57,50 +51,6 @@ function FooterSection() {
             <li>
               <a className="imgover" href="#">
                 <Image src={"/images/p1.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="one_quarter last">
-          <h6 className="heading">Important Links</h6>
-          <ul className="nospace clear latestimg">
-            <li>
-              <a
-                href="/files/fssi.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                FSSAI Certificate
               </a>
             </li>
           </ul>
