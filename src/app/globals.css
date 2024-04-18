@@ -1189,7 +1189,7 @@ table a,
   #mainav {
   }
   #mainav ul {
-    display: none;
+    /* display: none; */
   }
   #mainav form {
     display: block;

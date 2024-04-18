@@ -35,7 +35,7 @@ function FooterSection() {
             </li>
           </ul>
         </div>
-        <div className="one_quarter last">
+        {/* <div className="one_quarter last">
           <h6 className="heading">Popular Products</h6>
           <ul className="nospace clear latestimg">
             <li>
@@ -54,7 +54,7 @@ function FooterSection() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </footer>
     </div>
   );
