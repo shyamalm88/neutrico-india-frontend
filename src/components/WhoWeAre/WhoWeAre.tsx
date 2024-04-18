@@ -6,8 +6,8 @@ function WhoWeAre() {
     <div className="wrapper row2">
       <section className="hoc container clear">
         <div className="sectiontitle">
-          <p className="nospace font-xs">Who We Are?</p>
-          <h6 className="heading">
+          <h2 className="nospace ">Who We Are?</h2>
+          <h6 className="heading font-sm">
             We&apos;re a dedicated team leveraging science and technology to
             create tailored, sustainable nutritional solutions for all,
             empowering individuals to thrive.

@@ -28,7 +28,7 @@ function Nav({ active }: any) {
               <Link href="/about">About</Link>
             </li>
 
-            <li className={active?.includes("product") ? "active" : ""}>
+            {/* <li className={active?.includes("product") ? "active" : ""}>
               <Link href="/products" className="drop">
                 Products
               </Link>
@@ -43,7 +43,7 @@ function Nav({ active }: any) {
             </li>
             <li className={active === "health_professionals" ? "active" : ""}>
               <Link href="/health_professionals">Health Professionals</Link>
-            </li>
+            </li> */}
             <li className={active === "contact" ? "active" : ""}>
               <Link href="/contact">Contact Us</Link>
             </li>
