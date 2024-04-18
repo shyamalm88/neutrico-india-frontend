@@ -13,14 +13,9 @@ function FooterSection() {
               <li>
                 <Link href="/about">About</Link>
               </li>
+
               <li>
-                <Link href="/about">Terms</Link>
-              </li>
-              <li>
-                <Link href="/about">Privacy</Link>
-              </li>
-              <li>
-                <Link href="/contact">Disclaimer</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
@@ -92,6 +87,20 @@ function FooterSection() {
             <li>
               <a className="imgover" href="#">
                 <Image src={"/images/p1.png"} alt="" width="75" height="75" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="one_quarter last">
+          <h6 className="heading">Important Links</h6>
+          <ul className="nospace clear latestimg">
+            <li>
+              <a
+                href="/files/fssi.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                FSSAI Certificate
               </a>
             </li>
           </ul>
