@@ -1606,3 +1606,19 @@ table a,
   background-color: #ffbaba;
   padding: 2px;
 }
+
+@media (max-width: 767px) {
+  .boxWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    gap: 20px;
+  }
+  .box {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+}

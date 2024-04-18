@@ -12,9 +12,8 @@ function ContactPage() {
       <Nav active="contact" />
       <OtherPagesHero
         bgURL={`images/firmbee-com-SpVHcbuKi6E-unsplash.jpg`}
-        body={`We are dedicated to the advancement of global health through its
-              research-driven approach to developing nutritional solutions.`}
-        title={`About NEUTRICO INDIA.`}
+        body={`We're always excited to hear from you! Happy to hear from you! Questions, feedback, or greetings welcome (contact info below).`}
+        title={`Get In Touch with NEUTRICO INDIA.`}
       />
       <ContactUs />
       <FooterSection />
