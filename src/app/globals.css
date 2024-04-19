@@ -159,6 +159,7 @@
   width: 50%;
   padding: 100px 50px 100px 0;
 }
+
 .split section::after {
   display: block;
   position: absolute;
@@ -184,6 +185,9 @@
   max-width: 55%;
   margin: 0 auto 80px;
   text-align: center;
+}
+.sectiontitle.small {
+  margin: 0 auto 20px;
 }
 .sectiontitle * {
   margin: 0;
@@ -1621,4 +1625,14 @@ table a,
     display: flex;
     width: 100%;
   }
+}
+
+.font-sm {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.font-lg {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
