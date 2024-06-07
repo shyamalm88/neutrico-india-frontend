@@ -22,16 +22,22 @@ function FooterSection() {
         </div>
 
         <div className="one_quarter">
-          <h6 className="heading">Important Links</h6>
-          <ul className="nospace linklist">
+          <h6 className="heading">Certificates</h6>
+          <ul className="nospace clear latestimg">
             <li>
-              <a
-                href="/files/fssi.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                FSSAI Certificate
-              </a>
+              {/* <a className="imgover" href="#"> */}
+              <Image src={"/images/fssai.png"} alt="" width="75" height="40" />
+              {/* </a> */}
+            </li>
+            <li>
+              {/* <a className="imgover" href="#"> */}
+              <Image src={"/images/msme.png"} alt="" width="75" height="40" />
+              {/* </a> */}
+            </li>
+            <li>
+              {/* <a className="imgover" href="#"> */}
+              <Image src={"/images/iso.png"} alt="" width="75" height="40" />
+              {/* </a> */}
             </li>
           </ul>
         </div>
