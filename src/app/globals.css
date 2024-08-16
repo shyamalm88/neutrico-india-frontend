@@ -460,6 +460,9 @@ Delete it completely to stop fading
 *::after {
   transition: all 0.3s ease-in-out;
 }
+#mainav a, #mainav i{
+  transition: none !important;
+}
 #mainav form * {
   transition: none !important;
 }
@@ -1082,12 +1085,15 @@ textarea:focus,
   color: #ffffff;
   background-color: rgba(210, 65, 48, 0.5);
   border-color: rgba(210, 65, 48, 0.5); /* #D24130 */
+  -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
 #mainav li li:hover > a,
 #mainav .active .active > a {
   color: #ffffff;
   background-color: #d24130;
   border-color: rgba(210, 65, 48, 0.5); /* #D24130 */
+  
 }
 #mainav form select {
   color: #474747;

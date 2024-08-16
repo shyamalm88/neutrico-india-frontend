@@ -22,10 +22,14 @@ function Nav({ active }: any) {
         <nav id="mainav" className="fl_right">
           <ul className="clear">
             <li className={active === "home" ? "active" : ""}>
-              <Link href="/">Home</Link>
+              <Link href="/">
+                <i className="fas fa-home"></i> Home
+              </Link>
             </li>
             <li className={active === "about" ? "active" : ""}>
-              <Link href="/about">About</Link>
+              <Link href="/about">
+                <i className="fas fa-info-circle"></i> About
+              </Link>
             </li>
 
             {/* <li className={active?.includes("product") ? "active" : ""}>
@@ -44,8 +48,15 @@ function Nav({ active }: any) {
             <li className={active === "health_professionals" ? "active" : ""}>
               <Link href="/health_professionals">Health Professionals</Link>
             </li> */}
+            <li className={active === "products" ? "active" : ""}>
+              <Link href="/products">
+                <i className="fas fa-th"></i> Products
+              </Link>
+            </li>
             <li className={active === "contact" ? "active" : ""}>
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/contact">
+                <i className="fas fa-envelope"></i> Contact Us
+              </Link>
             </li>
           </ul>
         </nav>

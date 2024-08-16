@@ -57,18 +57,18 @@ function ContactUs() {
   return (
     <div className="wrapper row2">
       <section className="hoc container clear">
-        <div className="sectiontitle">
+        {/* <div className="sectiontitle">
           <p className="nospace ">Contact Us: </p>
           <h2 className="nospace ">NEUTRICO INDIA </h2>
           <h6 className="heading font-sm">
             A321, Master Mind 4, Royal Palms, Goregaon (East), Mumbai,
             Maharashtra- 400065
           </h6>
-        </div>
+        </div> */}
         <div className="boxWrapper">
           <div className="box">
             <section className="formcarry-container">
-              <form onSubmit={handleSubmit(onSubmit)}>
+              {/* <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="formcarry-block">
                   <label htmlFor="fc-generated-1-name">Full Name</label>
                   <input
@@ -138,7 +138,18 @@ function ContactUs() {
                 <div className="formcarry-block">
                   <button type="submit">Send</button>
                 </div>
-              </form>
+              </form> */}
+              <h1 className=" ">Contact Us: </h1>
+              <h6 className=" ">NEUTRICO INDIA </h6>
+              <h6 className="heading font-sm">
+                A321, Master Mind 4, Royal Palms,
+                <br />
+                Goregaon (East),
+                <br />
+                Mumbai,
+                <br />
+                Maharashtra- 400065
+              </h6>
             </section>
           </div>
           <div className="box map" ref={containerRef} id="script-container">
